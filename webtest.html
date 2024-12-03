@@ -9,4 +9,19 @@
 <body>
     Day Day Up Demo Page!
 </body>
+<body>
+    <header>
+        <h1>上传文件</h1>
+        <nav>
+            <a href="/">首页</a>
+            <a href="/admin">管理员登录</a>
+        </nav>
+    </header>
+    <main>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <input type="submit" value="上传">
+        </form>
+    </main>
+</body>
 </html>
